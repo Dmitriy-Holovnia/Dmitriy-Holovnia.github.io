@@ -1,0 +1,110 @@
+[
+  {
+    "imageSrc": "./img/projects/goat-portfolio.png",
+    "hoverTitle": "GOAT",
+    "projectName": "GOAT E-Commerce Platform",
+    "generalText": "An e-commerce platform for authentic sneakers, apparel and accessories, serving more than 50 million users in 170 countries.",
+    "developmentText": "Participated in writing documentation, migrating dependencies to Swift Package Manager, redesigning the home screen with unique navigation, and developing key features for scalability.",
+    "technologies": ["Swift", "Objective-C", "UIKit", "SwiftUI", "DCA"],
+		"link": "https://apps.apple.com/ua/app/goat-sneakers-apparel/id966758561?l=ru&platform=iphone",
+    "images": [
+      "./img/projects/goat-portfolio.png"
+    ]
+  },
+	{
+    "imageSrc": "./img/projects/beehly-portfolio.png",
+    "hoverTitle": "Beehly",
+    "projectName": "Beehly",
+    "generalText": "​Beehly is a social platform for investors to connect, share ideas, and track stocks, cryptocurrencies, and ETFs.",
+    "developmentText": "Developed the project from scratch to release, connected CI with automation, integrated web3 for portfolio tracking.",
+    "technologies": ["MVP", "Web3", "WebSocket", "PushNotifications", "CI/CD", "SwiftUI", "Sketch"],
+		"link": "https://apps.apple.com/in/app/beehly/id6450277353",
+    "images": [
+      "./img/projects/beehly-portfolio.png"
+    ]
+  },
+  {
+    "imageSrc": "./img/projects/blabla-portfolio.png",
+    "hoverTitle": "BlaBla",
+    "projectName": "BlaBla English Learning App",
+    "generalText": "A companion app for learning English that improves conversational skills through real-life scenarios and chats with artificial intelligence.",
+    "developmentText": "Built an app from scratch using TCA and SwiftUI, integrated OpenAI API, added in-app purchases, notifications via CustomerIO and automated CI/CD with Codemagic.",
+    "technologies": ["TCA", "SwiftUI", "Combine", "Firebase", "In-App Purchases", "AI", "CustomerIO", "CodemagicCI"],
+		"link": "https://apps.apple.com/ru/app/blabla-language/id6448942693?l=uk",
+    "images": [
+			"./img/projects/blabla-portfolio.png"
+    ]
+  },
+  {
+    "imageSrc": "./img/projects/edible-portfolio.png",
+    "hoverTitle": "Edible",
+    "projectName": "Edible E-Commerce App",
+    "generalText": "Edible lets you order fresh fruit bouquets, chocolate-dipped treats, and gifts with same-day delivery and exclusive in-app offers.",
+    "developmentText": "Redesigned the interface, integrated two new payment APIs, added transaction support via CloverConnector SDK and WebSockets, and applied Viper for scalability.",
+    "technologies": ["Viper", "UIKit", "RxSwift", "SnapKit", "Starscream", "CloverConnector SDK", "WebSockets", "AppClip"],
+		"link": "https://apps.apple.com/us/app/edible/id1142212779?l",
+    "images": [
+			"./img/projects/edible-portfolio.png"
+    ]
+  },
+  {
+    "imageSrc": "./img/projects/o-fish-portfolio.png",
+    "hoverTitle": "O-fish",
+    "projectName": "O-fish Marine Protection App",
+    "generalText": "Mobile app for WildAid Marine Program protecting sensitive marine environments.",
+    "developmentText": "Developed the app using SwiftUI and Combine, added offline functionality with Realm Sync and applied MVVM for code cleanliness.",
+    "technologies": ["SwiftUI", "Combine", "Realm Sync", "MVVM"],
+		"link": "https://apps.apple.com/us/app/o-fish/id1523642187?l",
+    "images": [
+			"./img/projects/o-fish-portfolio.png"
+    ]
+  },
+  {
+    "imageSrc": "./img/projects/urbanist-portfolio.png",
+    "hoverTitle": "Urbanist",
+    "projectName": "Urbanist Subscription App",
+    "generalText": "A mobile app for buying subscriptions to coffee, car washes, massages and other services.",
+    "developmentText": "Built the app from scratch using MVVM, integrated Firebase for data synchronization and notifications, added location-based features with Google Maps SDK.",
+    "technologies": ["MVVM", "Google Maps SDK", "Alamofire", "Firebase", "Hero"],
+		"link": "https://apps.apple.com/ua/app/urbanist/id1575719164?l",
+    "images": [
+      "./img/projects/urbanist-portfolio.png"
+    ]
+  },
+  {
+    "imageSrc": "./img/projects/zakhyst-portfolio.png",
+    "hoverTitle": "ZAKHYST",
+    "projectName": "ZAKHYST Security App",
+    "generalText": "An application to protect users and their property with one-touch security call function.",
+    "developmentText": "Developed from scratch using MVVM, integrated geolocation with Google Maps and Google Places, added payments and reactive UI with RxSwift and Firebase.",
+    "technologies": ["MVVM", "Git", "Google Places", "Google Maps SDK", "RxSwift", "Firebase SDK", "In-App Purchases", "Design Patterns", "Sketch"],
+		"link": "https://apps.apple.com/ua/app/%D0%B7%D0%B0%D1%85%D0%B8%D1%81%D1%82/id1577136753",
+    "images": [
+			"./img/projects/zakhyst-portfolio.png"
+    ]
+  },
+  {
+    "imageSrc": "./img/projects/lingualift-portfolio.png",
+    "hoverTitle": "LinguaLift",
+    "projectName": "LinguaLift - language learning platform",
+    "generalText": "​LinguaLift is a comprehensive language learning app offering personalized study plans, tutor support, and cultural insights for languages like Japanese, Russian, and Hebrew.",
+    "developmentText": "Added Japanese language learning, implemented new language learning features, added support for push notifications and a new leaderboard.",
+    "technologies": ["MVP", "Localization", "Viper", "UIKit", "Alamofire"],
+		"link": "https://apps.apple.com/nl/app/lingualift/id1455239649?l=en-GB",
+    "images": [
+      "./img/projects/lingualift-portfolio.png"
+    ]
+  },
+  {
+    "imageSrc": "./img/projects/urban-sport-portfolio.png",
+    "hoverTitle": "UrbanSport",
+    "projectName": "UrbanSport Venue Finder",
+    "generalText": "An app for finding sports venues, booking courses and tracking progress.",
+    "developmentText": "Implemented search and filtering with Google Maps SDK, Google Places and Google Street View, applied MVP and integrated API with Alamofire.",
+    "technologies": ["MVP", "Google Maps SDK", "Google Places", "Google Street View", "Alamofire", "Design Patterns", "Alamofire"],
+		"link": "https://apps.apple.com/ua/app/urban-sports-club/id998362348?l",
+    "images": [
+      "./img/projects/urban-sport-portfolio.png"
+    ]
+  }
+]

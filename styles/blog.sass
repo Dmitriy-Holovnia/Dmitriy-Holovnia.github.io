@@ -1,0 +1,94 @@
+@import vars
+
+.blog
+	position: relative
+	padding: 8rem 0 5rem
+
+	&_items
+		display: grid
+		grid-template-columns: repeat(3, 1fr)
+		gap: 1rem
+		position: relative
+
+		&-close
+			display: none
+			position: absolute
+			top: -45px
+			right: 0
+			cursor: pointer
+			transition: 500ms ease
+
+			&:hover
+				svg path
+					transition: 500ms ease
+					stroke: $green_text
+
+		&-item
+			display: none
+			border-radius: 0.4375rem
+			background: #151515
+
+			img
+				border-radius: 0.4375rem
+				width: 100%
+
+			&--content
+				padding: 2rem
+				&-title
+					color: $green_text
+					letter-spacing: 0.06rem
+					margin-bottom: 1.5rem
+				&-text
+					line-height: 148.5%
+					letter-spacing: 0.045rem
+					margin-bottom: 2rem
+				&-btn
+					border-radius: 0.4375rem
+					border: 1px solid #01A307
+					display: inline-block
+					text-align: center
+					color: $white_text
+					width: 11rem
+					padding: 1rem 0
+					cursor: pointer
+					transition: 500ms ease
+
+					&:hover
+						background: $green_text
+
+	&_pagination
+		display: flex
+		align-items: flex-end
+		gap: 4rem
+		max-width: 25rem
+		margin-left: auto
+		margin-top: 5rem
+		justify-content: flex-end
+
+		&-nav
+			&--list
+				display: flex
+				align-items: center
+				gap: 1rem
+
+				&-item
+					font-size: 1.25rem
+					letter-spacing: 0.05625rem
+					cursor: pointer
+
+		&-arrows
+			max-width: 10rem
+			gap: 2rem
+			display: flex
+			img
+				width: 25%
+				cursor: pointer
+				transition: 500ms ease
+				&:hover
+					transform: scale(1.2)
+
+.activePag
+	color: $green_text
+
+.blog_items-item.active
+	display: block

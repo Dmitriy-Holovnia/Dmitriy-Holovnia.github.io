@@ -1,0 +1,50 @@
+@import vars
+@import projectModal
+
+.projects
+	padding: 6rem 0 4rem
+
+	&_items
+		display: grid
+		grid-template-columns: repeat(3, 1fr)
+		justify-items: center
+		gap: 2rem
+		margin-bottom: 2rem
+
+		&-project
+			cursor: pointer
+			position: relative
+			overflow: hidden
+			border-radius: 1rem
+			&:hover &--hover
+				opacity: 0.8
+
+			img
+				border-radius: 1rem
+			&--hover
+				background-color: #222
+				position: absolute
+				inset: 0
+				display: grid
+				place-items: center
+				opacity: 0
+				transition: all .5s ease
+				border-radius: 1rem
+
+			&:nth-child(n+10)
+				display: none
+
+.seeM
+	background: transparent
+	display: block
+	border: none
+	color: $white_text
+	font-size: 1.25rem
+	font-weight: 700
+	letter-spacing: 0.06rem
+	margin: 0 auto
+	cursor: pointer
+	transition: 500ms ease
+
+	&:hover
+		color: $green_text

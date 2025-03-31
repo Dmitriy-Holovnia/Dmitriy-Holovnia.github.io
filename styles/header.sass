@@ -1,0 +1,26 @@
+@import vars
+
+.header
+	padding: 2.25rem 0
+	&_nav
+		&-ul
+			margin-left: auto
+			max-width: 25vw
+			display: flex
+			align-items: center
+			justify-content: space-between
+
+			&--li, &--liBlog
+				display: flex
+				align-items: center
+				gap: 1rem
+				transition: 500ms ease
+				font-weight: 700
+				letter-spacing: 0.045rem
+				cursor: pointer
+
+				&:hover
+					transform: scale(1.1)
+					svg path
+						transition: 500ms ease
+						fill: $green_text

@@ -1,0 +1,80 @@
+@import vars
+
+.modalEmail_container
+	position: fixed
+	inset: 0
+	background-color: #000000b3
+	z-index: 1000
+	display: none
+	place-items: center
+	padding: 15px
+	cursor: default
+
+	.modalEmail
+		border-radius: 0.4375rem
+		border: 1px solid #00B907
+		background: #0B0A0C
+		box-shadow: 0px 0px 21px 0px rgba(0, 185, 7, 0.30)
+		position: relative
+		padding: 3rem
+		max-width: 55vw
+		margin: 0 auto
+
+		&_close
+			position: absolute
+			top: 1.5rem
+			right: 3.25rem
+			cursor: pointer
+			z-index: 1001
+
+			&:hover
+				svg path
+					transition: 500ms ease
+					stroke: $green_text
+
+		&_primary, &_secondary
+			font-size: 1.75rem
+			letter-spacing: 0.075rem
+			margin-bottom: 1.5rem
+
+		&_input
+			border-radius: 0.4375rem
+			background: #151515
+			width: 45vw
+			border: none
+			outline: none
+			color: $white_text
+			padding: 1rem 0 0.6rem 1rem
+			margin-bottom: 1.5rem
+
+			&::placeholder
+				color: #D9D9D9
+				letter-spacing: 0.045rem
+
+		&_textarea
+			border-radius: 0.4375rem
+			background: #151515
+			border: none
+			outline: none
+			width: 45vw
+			height: 13rem
+			margin-bottom: 3rem
+			padding: 1rem 0 0 1rem
+			font-size: 1.25rem
+			color: $white_text
+
+		&_btn
+			width: 12rem
+			display: block
+			margin-left: auto
+			padding: 1rem 0
+			border-radius: 0.4375rem
+			color: $white_text
+			border: 1px solid #01A307
+			background: $green_text
+			transition: 500ms ease
+			font-weight: 700
+			cursor: pointer
+
+			&:hover
+				box-shadow: 0px 0px 26px 3px rgba(0, 185, 7, 0.56)

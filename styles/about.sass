@@ -1,0 +1,92 @@
+.about
+	padding: 8rem 0 4rem
+
+	&_img
+		text-align: center
+		position: relative
+		display: flex
+		align-items: center
+		justify-content: center
+		margin-bottom: 4rem
+
+		&-mask
+			position: relative
+			width: 500px
+			height: 500px
+			&--me
+				position: absolute
+				top: 5%
+				left: 5%
+				object-fit: cover
+				clip-path: url(#meBGClip)
+				width: 85%
+			&--meBG
+				position: absolute
+				top: 0
+				left: 0
+				width: 95%
+
+		&-polyL
+			position: absolute
+			left: 20%
+			top: 10%
+		&-arrowL
+			position: absolute
+			left: 40%
+			top: -2%
+		&-polyR
+			position: absolute
+			right: 20%
+			top: -20%
+
+		&-arrows
+			position: absolute
+			right: 20%
+			top: 50%
+
+		&-htmlB
+			position: absolute
+			left: 25%
+			bottom: 5%
+
+	&_content
+		text-align: center
+		&-title
+			font-size: 3.25rem
+			letter-spacing: 0.125rem
+			margin-bottom: 1rem
+
+		&-subtitle
+			font-size: 1.5rem
+			font-weight: 700
+			letter-spacing: 0.0675rem
+			margin-bottom: 2.5rem
+
+		svg
+			margin-bottom: 2.5rem
+
+		&-text
+			max-width: 54rem
+			margin: 0 auto
+			line-height: 148.5%
+			letter-spacing: 0.045rem
+			margin-bottom: 2rem
+
+		&-tools
+			&--title
+				font-weight: 700
+				letter-spacing: 0.045rem
+				margin-bottom: 1.5rem
+			&--items
+				display: flex
+				align-items: center
+				justify-content: center
+				gap: 1.5rem
+
+				&-item
+					display: flex
+					align-items: center
+					gap: 1rem
+					padding: 0.5rem
+					border-radius: 0.4375rem
+					border: 1px solid #1E1E20

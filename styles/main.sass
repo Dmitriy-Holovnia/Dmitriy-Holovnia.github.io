@@ -1,0 +1,130 @@
+@import vars
+@import modalEmail
+
+.main
+	padding: 4.5rem 0 2.5rem
+	display: flex
+	align-items: center
+	justify-content: space-between
+	position: relative
+
+	&_content
+		&-title
+			color: $green_text
+			font-size: 4rem
+			letter-spacing: 0.2rem
+			margin-bottom: 1rem
+
+		&-subtitle
+			font-size: 2rem
+			font-weight: 700
+			letter-spacing: 0.09rem
+			margin-bottom: 2rem
+
+		&-line
+			display: block
+			height: 1px
+			width: 3rem
+			background-color: #222
+			margin-bottom: 2.5rem
+
+		&-text
+			letter-spacing: 0.045rem
+			margin-bottom: 7rem
+
+		&-socials
+			display: flex
+			align-items: center
+			justify-content: space-between
+			margin-bottom: auto
+
+			&--btn
+				width: 12.7rem
+				padding: 1.2rem 0
+				border-radius: 0.4375rem
+				border: 1px solid #01A307
+				background: $green_text
+				color: $white_text
+				text-align: center
+				font-family: IBM Plex Sans
+				font-size: 1.25rem
+				font-weight: 700
+				letter-spacing: 0.06rem
+				transition: 500ms ease
+				cursor: pointer
+
+				&:hover
+					box-shadow: 0px 0px 26px 3px rgba(0, 185, 7, 0.56)
+
+			&--items
+				display: flex
+				align-items: center
+				gap: 1rem
+				position: relative
+
+				&-tooltip
+					position: relative
+					display: inline-block
+
+					.tooltip_text
+						display: none
+						background-color: #1F1F1F
+						color: $white_text
+						text-align: center
+						border-radius: 6px
+						padding: 0.8rem
+						position: absolute
+						z-index: 1
+						bottom: 150%
+						left: -75%
+						font-weight: 700
+						letter-spacing: 0.045rem
+
+						&::after
+							content: ""
+							position: absolute
+							top: 100%
+							left: 25%
+							margin-left: -5px
+							border-width: 5px
+							border-style: solid
+							border-color: #1F1F1F transparent transparent transparent
+
+				a, svg
+					cursor: pointer
+					transition: 500ms ease
+
+					path
+						transition: 500ms ease
+
+					&:hover
+						transform: scale(1.1)
+					&:hover .tooltip_text ::after
+						display: inline-block
+
+					&:hover path
+						fill: $green_text
+
+	&_img
+		position: relative
+		text-align: end
+		max-width: 850px
+
+		&-top
+			position: absolute
+			top: 15%
+			right: 30%
+		&-general
+			width: 100%
+			position: relative
+
+		&-before
+			position: absolute
+			top: 57%
+			left: 16%
+			z-index: -1
+
+		&-bottom
+			position: absolute
+			bottom: 17%
+			right: 15%
